@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkcyan;
+}
+.home {
+    margin-right: 1300px;
+    color: black;
+}

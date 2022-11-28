@@ -1,0 +1,22 @@
+.tit {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia;
+    font-size: 50px;
+}
+.head {
+    font-size: 25px;
+}
+.para {
+    border: 3px solid black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+body {
+    background-color: chartreuse;
+}
+.home {
+    margin-right: 1300px;
+    color: black;
+}

@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.tit {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+img {
+    margin-left: 500px;
+}
+body {
+    background-color: floralwhite;
+    
+}
+
+.home {
+    color: black;
+    margin-right: 1300px;
+}

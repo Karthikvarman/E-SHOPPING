@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+    background-color: brown;
+    font-size: 30px;
+}
+body{
+    background-color: aqua;
+}
+.but {
+    margin-left: 650px;
+
+}
+.button {
+    margin-left: 60px;
+}

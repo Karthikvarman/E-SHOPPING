@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+        <link rel="stylesheet" type="text/css" href="in.css">
+    </head>
+    
+
+    <body>
+        
+        <div class="container">
+            <p class="head">Sign up</p>
+            <form name="myForm" onsubmit="return validateForm()" method="post">
+            <input type="text" placeholder="Name" name="Name">
+            <input type="email" placeholder="Email" name="Email">
+            <input type="text" placeholder="Address" name="Address">
+            <input type="number" placeholder="Phone Number" name="Phone">
+            <input type="password" placeholder="Password" name="Pwd">
+            <input type="password" placeholder="Confirm password" name="Confirm">
+            <button type="button" onclick="validateForm()"><a href="main.html">SUBMIT</button>
+                </form>
+        </div>
+    </body>
+    <script>
+        function validateForm() {
+  let x = document.forms["myForm"]["Name"].value;
+  let y = document.forms["myForm"]["Email"].value;
+  let z = document.forms["myForm"]["Address"].value;
+  let a = document.forms["myForm"]["Phone"].value;
+  let b = document.forms["myForm"]["Pwd"].value;
+  let c = document.forms["myForm"]["Confirm"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  if (y == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+  if (z == "") {
+    alert("Address must be filled out");
+    return false;
+  }
+  if (a == "") {
+    alert("Phone must be filled out");
+    return false;
+  }
+  if (b == "") {
+    alert("Pwd must be filled out");
+    return false;
+  }
+  if (c == "") {
+    alert("Confirm must be filled out");
+    return false;
+  }
+}
+</script>
+</html>

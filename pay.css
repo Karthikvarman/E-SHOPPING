@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+    background-color: crimson;
+    font-size: 40px;
+}
+body {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.head {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.list {
+    font-weight: bold;
+    font-size: 20px;
+}
+.home {
+    color: black;
+    margin-right: 1300px;
+}
+.box {
+
+    border: none;
+    padding: 7px 25px;
+}

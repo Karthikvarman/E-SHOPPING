@@ -1,0 +1,26 @@
+.head {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    margin-top: 50px;
+    font-weight: bold;
+}
+body {
+    text-align: center;
+    background-color: burlywood;
+}
+.box {
+    margin-left: 100px;
+}
+.list {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.sub {
+    font-style: oblique;
+    color: black;
+}
+.home {
+    margin-right: 1300px;
+
+}
